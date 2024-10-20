@@ -1,0 +1,47 @@
+.heading {
+  text-align: center;
+  color: rgb(24, 76, 102);
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  max-width: 400px;
+  background-color: azure;
+  border-radius: 20px;
+  margin-left: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 20vw;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.btn button {
+  border: none;
+  color: white;
+  background-color: seagreen;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 15vw;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
