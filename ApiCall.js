@@ -1,4 +1,4 @@
-const Api_key = "7f6f00dd4f6d427088653114242607";
+const Api_key = "/";
 export const getData = async (city) => {
   const response =
     await fetch(`https://api.weatherapi.com/v1/current.json?key=${Api_key}&q=${city}&aqi=yes
